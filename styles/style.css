@@ -1,0 +1,241 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eeede7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eeede7;
+  padding: 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header-left h2 {
+  font-size: 30px;
+}
+
+.header-middle nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.header-middle nav ul li a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.header-middle nav ul li a:hover {
+  border-bottom: 2px solid #503217;
+}
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header-right div i {
+  font-size: 23px;
+}
+/* header style end here */
+
+/* banner style starts here */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin: 0px 150px;
+  padding: 50px 0px;
+}
+.banner-left h1 {
+  font-size: 60px;
+}
+.banner-left p {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.banner-btn button {
+  padding: 15px 25px;
+  background-color: #503217;
+  color: white;
+  border-radius: 8px;
+}
+.banner-right img {
+  height: 500px;
+}
+
+/* banner style end here */
+/* shop category style starts here */
+.category-title h1 {
+  text-align: center;
+  font-size: 44px;
+  margin: 20px 0px;
+}
+.category-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.c-card div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.c-card div img {
+  height: 100px;
+}
+.c-card {
+  margin: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.228);
+}
+.c-card h3,
+.c-card p {
+  text-align: center;
+}
+
+/* shop category style end here */
+/* health product section style starts here */
+.health-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0px 80px;
+  margin-bottom: 50px;
+}
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.253);
+}
+.product-left p {
+  margin-bottom: 40px;
+}
+.product-left p span {
+  background-color: #d3744a;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+}
+.product-left h2 {
+  margin-bottom: 20px;
+}
+.product-left a {
+  color: gray;
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid gray;
+}
+/* health product section style end here */
+
+/* latest product section style starts here  */
+.latest-product-section {
+  margin: 100px 0px;
+}
+.latest-product-title h1 {
+  text-align: center;
+  font-size: 44px;
+  margin: 30px 0px;
+}
+.l-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0px 100px;
+}
+.l-product-card {
+  height: 250px;
+  width: 250px;
+}
+.l-product-card > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.l-product-card div img {
+  background-color: rgba(255, 255, 255, 0.354);
+  border-radius: 20px;
+  height: 250px;
+  padding: 30px;
+  margin: 20px;
+}
+.l-product-card h2,
+.l-product-card p {
+  text-align: center;
+}
+.price span {
+  text-decoration: line-through;
+}
+
+/* latest product section style end here  */
+/* client section style starts here */
+.client-title h1 {
+  text-align: center;
+  font-size: 44px;
+  margin: 30px 0px;
+}
+.paragraph-container p {
+  padding: 50px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #8f7d6a;
+}
+.paragraph-container {
+  margin: 40px 100px;
+}
+.client-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.client-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.client-card img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.client-card h3 {
+  font-weight: bold;
+}
+.client-card p {
+  color: #8f7d6a;
+}
+/* client section style end here */
+/* footer section style starts here */
+/* footer section end here */

@@ -4,8 +4,275 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MEDIFIT || html & css</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- style link here -->
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body></body>
+  <!-- body section starts here -->
+
+  <body>
+    <!-- header section starts here -->
+    <header>
+      <div class="header-left">
+        <div>
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <div><h2>Medifit</h2></div>
+      </div>
+      <div class="header-middle">
+        <nav>
+          <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Shop</a></li>
+            <li>
+              <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-right">
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <!-- header section end here -->
+
+    <!-- banner section starts here -->
+    <section class="banner">
+      <div class="banner-left">
+        <h1>Your trusted care now and always</h1>
+        <p>
+          For the best results, align your health needs with your medication
+          plan.
+        </p>
+        <div class="banner-btn">
+          <button><i class="fa-solid fa-bag-shopping"></i>Shop now</button>
+        </div>
+      </div>
+      <div class="banner-right">
+        <img src="./images/banner_image.png" alt="" />
+      </div>
+    </section>
+    <!-- banner section end here -->
+
+    <!-- category section starts here -->
+    <section class="shop-category">
+      <div class="category-title">
+        <h1>Shop by Category</h1>
+      </div>
+      <div class="category-card">
+        <!-- card1 -->
+        <div class="c-card">
+          <div>
+            <img src="./images/medicine_logo.png" alt="" />
+          </div>
+          <h3>Medicine</h3>
+          <p>32 Items</p>
+        </div>
+        <div class="c-card">
+          <div>
+            <img src="./images/heath_logo.png" alt="" />
+          </div>
+          <h3>Health care</h3>
+          <p>20 Items</p>
+        </div>
+        <div class="c-card">
+          <div>
+            <img src="./images/beauty_logo.png" alt="" />
+          </div>
+          <h3>Beauty care</h3>
+          <p>30 Items</p>
+        </div>
+        <div class="c-card">
+          <div>
+            <img src="./images/fitness_logo.png" alt="" />
+          </div>
+          <h3>Fitness</h3>
+          <p>35 Items</p>
+        </div>
+        <div class="c-card">
+          <div>
+            <img src="./images/lab_logo.png" alt="" />
+          </div>
+          <h3>Lab equipment</h3>
+          <p>25 Items</p>
+        </div>
+        <div class="c-card">
+          <div>
+            <img src="./images/medikit_logo.png" alt="" />
+          </div>
+          <h3>Medkits</h3>
+          <p>25 Items</p>
+        </div>
+      </div>
+    </section>
+    <!-- category section end here -->
+    <!-- health product section starts here -->
+    <section class="health-product-container">
+      <div class="product-card">
+        <div class="product-left">
+          <p><span>Sanitizer</span></p>
+          <div>
+            <h2>Hand sanitizer collection</h2>
+            <a href="#"><i class="fa-solid fa-briefcase"></i> Shop now</a>
+          </div>
+        </div>
+        <div class="product-right">
+          <img src="./images/hand-sanitizer-bottle.png" alt="" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-left">
+          <p><span>Top deals</span></p>
+          <div>
+            <h2>Face wash sale collection</h2>
+            <a href="#"><i class="fa-regular fa-eye"></i> Discover now</a>
+          </div>
+        </div>
+        <div class="product-right">
+          <img src="./images/face_wash.png" alt="" />
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-left">
+          <p><span>Face mask</span></p>
+          <div>
+            <h2>
+              Facial mask deals save <br />
+              up to 50%
+            </h2>
+            <a href="#"><i class="fa-regular fa-eye"></i> Discover now</a>
+          </div>
+        </div>
+        <div class="product-right">
+          <img src="./images/medical-mask.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- health product section end here -->
+
+    <!-- latest product section starts here -->
+
+    <section class="latest-product-section">
+      <div class="latest-product-title">
+        <h1>Latest health product</h1>
+      </div>
+      <div class="l-product-container">
+        <!-- card 1 -->
+        <div class="l-product-card">
+          <div>
+            <img src="./images/microscope.png" alt="" />
+          </div>
+          <h2>Microscope</h2>
+          <p>$45.00 USD</p>
+        </div>
+        <!-- card 2 -->
+        <div class="l-product-card">
+          <div>
+            <img src="./images/oximeter.png" alt="" />
+          </div>
+          <h2>Pulse oximeter</h2>
+          <div class="price">
+            <p>$19.00 USD</p>
+            <p class="price"><span>$25.00</span> USD</p>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="l-product-card">
+          <div>
+            <img src="./images/vitamin_serum.png" alt="" />
+          </div>
+          <h2>Vitamin serum</h2>
+          <div class="price">
+            <p>$20.00 USD</p>
+            <p class="price"><span>$30.00</span> USD</p>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="l-product-card">
+          <div>
+            <img src="./images/high_protein .png" alt="" />
+          </div>
+          <h2>High protein</h2>
+          <p>$50.00 USD</p>
+        </div>
+      </div>
+    </section>
+    <!-- latest product section end here -->
+    <!-- client section starts here -->
+    <section class="client">
+      <div class="client-title">
+        <h1>Our happy clients</h1>
+      </div>
+      <div class="paragraph-container">
+        <p>
+          <span class="clone">"</span> I’m so impressed with this online medical
+          store. The product selection is extensive and the prices are great. I
+          found everything i needed in one place. The ordering process was easy,
+          delivery was prompt, and the items arrived in perfect condition. Plus,
+          the customer service team was incredibly helpful.
+        </p>
+      </div>
+      <div class="client-card-container">
+        <!-- card 1 -->
+        <div class="client-card">
+          <div>
+            <img src="./images/1.jpg" alt="" />
+          </div>
+          <div>
+            <h3>James Wilson</h3>
+            <p>Manager</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="client-card">
+          <div>
+            <img src="./images/2.jpg" alt="" />
+          </div>
+          <div>
+            <h3>James Wilson</h3>
+            <p>Manager</p>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="client-card">
+          <div>
+            <img src="./images/3.jpg" alt="" />
+          </div>
+          <div>
+            <h3>James Wilson</h3>
+            <p>Manager</p>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="client-card">
+          <div>
+            <img src="./images/4.jpg" alt="" />
+          </div>
+          <div>
+            <h3>James Wilson</h3>
+            <p>Manager</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- client section end here -->
+    <!-- footer section starts here -->
+    <!-- footer section end here -->
+  </body>
+  <!-- body section end here -->
 </html>
