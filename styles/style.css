@@ -294,6 +294,12 @@ header {
   color: #503217;
   padding: 10px;
 }
+.footer-last p {
+  text-align: center;
+  color: #503217;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
 
 /* footer section end here */
 
@@ -364,6 +370,9 @@ header {
   }
   .footer-right {
     gap: 20px;
+  }
+  .footer-last p {
+    font-size: 16px;
   }
 }
 /* mobile responsive styles style here */
