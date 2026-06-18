@@ -49,6 +49,7 @@ header {
 }
 .header-right div i {
   font-size: 23px;
+  cursor: pointer;
 }
 /* header style end here */
 
@@ -64,6 +65,7 @@ header {
 }
 .banner-left h1 {
   font-size: 60px;
+  text-transform: capitalize;
 }
 .banner-left p {
   font-size: 20px;
@@ -71,10 +73,16 @@ header {
   margin-bottom: 20px;
 }
 .banner-btn button {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
   padding: 15px 25px;
   background-color: #503217;
   color: white;
   border-radius: 8px;
+
+  cursor: pointer;
 }
 .banner-right img {
   height: 500px;
@@ -86,6 +94,7 @@ header {
   text-align: center;
   font-size: 44px;
   margin: 20px 0px;
+  text-transform: capitalize;
 }
 .category-card {
   display: flex;
@@ -104,14 +113,16 @@ header {
 }
 .c-card {
   margin: 20px;
-  border: 1px solid rgba(128, 128, 128, 0.445);
+  
   border-radius: 20px;
   padding: 20px;
-  box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.078);
+  box-shadow: 10px 10px 20px rgba(11, 1, 1, 0.078);
+  background-color: white;
 }
 .c-card h3,
 .c-card p {
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* shop category style end here */
